@@ -1,0 +1,35 @@
+*{
+    padding: 0px;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+}
+.parent{
+    margin-left: 20px;
+    border: 1px solid black;
+    width: 70%;
+    height: 300px;
+    display: flex;
+}
+.child{
+    height: 20px;
+    border: 1px solid black;
+    text-align: center;
+}
+.child{
+    width: 100%;
+}
+.child-2{
+    flex-grow: 1;
+}
+
+.child {
+  flex-shrink: 1;
+  flex-basis: 200px;
+}
+
+.child-3{
+    flex-shrink: 2;
+}
