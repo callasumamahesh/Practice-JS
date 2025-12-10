@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./index.js"></script>
+</head>
+<body>
+    <h1>Functions</h1>
+    <p id="number">0</p>
+    <button onclick="handleIncrement()">Increment</button>
+    <button onclick="handleDecrement()">Decrement</button>
+
+    <input type="text" placeholder="Enter" name="task" id="task-input">
+    <input type="checkbox" onchange="handleCheckChange()" id="checkbox-input">
+    <input type="radio" id="radio-input" onclick="handleRadioChange()" name="radio1">
+    <input type="radio" id="radio-input1" onclick="handleRadioChange1()" name="radio1">
+    <button onclick="submitTask()">Submit</button>
+    <div class="tasks"></div>
+</body>
+</html>
